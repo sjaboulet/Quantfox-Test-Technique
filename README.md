@@ -3,7 +3,7 @@
 
 ## Description
 
-This project is a simple task management application with a React frontend and a NestJS backend.
+This project is a simple task management application with a NextJs frontend and a NestJS backend.
 Users can create tasks, update their status (To Do, In Progress, Done), and delete tasks.
 The app communicates with a RESTful API backend to persist and manage tasks.
 
@@ -56,7 +56,7 @@ The backend will be running on `http://localhost:8000` by default.
 
 ---
 
-### Frontend (React)
+### Frontend (NextJs)
 
 1. Navigate to the frontend folder:
    ```bash
@@ -68,12 +68,12 @@ The backend will be running on `http://localhost:8000` by default.
    npm install
    ```
 
-3. Start the React app:
+3. Start the NextJs app:
    ```bash
    npm run start
    ```
 
-The frontend will be accessible at `http://localhost:3000` (or the default React port).
+The frontend will be accessible at `http://localhost:3000` (or the default NextJs port).
 
 ---
 
