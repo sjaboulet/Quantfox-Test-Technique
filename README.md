@@ -81,3 +81,4 @@ The frontend will be accessible at `http://localhost:3000` (or the default NextJ
 
 - Make sure the backend is running before starting the frontend to avoid API errors.
 - The frontend expects the backend API to be available at `http://localhost:8000`. Adjust the URL in the frontend code if needed.
+- Database url for the Prisma: DATABASE_URL='postgresql://quantfox:quantfox@localhost:5432/quantfox-db'
