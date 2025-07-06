@@ -24,12 +24,12 @@ The app communicates with a RESTful API backend to persist and manage tasks.
 
 ## Backend Endpoints
 
-| Method | Endpoint      | Description                             | Request Body                   |
-|--------|---------------|-------------------------------------|-------------------------------|
-| GET    | `/tasks`      | Retrieve all tasks                   | None                          |
-| POST   | `/tasks`      | Create a new task                   | `{ title: string, description?: string }` |
-| PATCH  | `/tasks/:id`  | Update task (e.g., status, title)   | Partial task data (e.g., `{ status: 'DONE' }`) |
-| DELETE | `/tasks/:id`  | Delete a task by ID                 | None                          |
+| Method | Endpoint      | Description                             |
+|--------|---------------|-------------------------------------|
+| GET    | `/tasks`      | Retrieve all tasks                   |
+| POST   | `/tasks`      | Create a new task                   |
+| PATCH  | `/tasks/:id`  | Update task (e.g., status, title)   |
+| DELETE | `/tasks/:id`  | Delete a task by ID                 |
 
 ---
 
