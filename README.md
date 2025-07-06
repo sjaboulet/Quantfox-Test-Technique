@@ -70,7 +70,7 @@ The backend will be running on `http://localhost:8000` by default.
 
 3. Start the NextJs app:
    ```bash
-   npm run start
+   npm run dev
    ```
 
 The frontend will be accessible at `http://localhost:3000` (or the default NextJs port).
