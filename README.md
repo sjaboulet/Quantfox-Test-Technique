@@ -47,7 +47,12 @@ The app communicates with a RESTful API backend to persist and manage tasks.
    npm install
    ```
 
-3. Start the backend server in development mode:
+3. Initiate the database:
+   ```bash
+   npx prisma migrate dev
+   ```
+
+4. Start the backend server in development mode:
    ```bash
    npm run start:dev
    ```
